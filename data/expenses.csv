@@ -1,0 +1,1048 @@
+date,category,amount,notes
+2023-01-01,Rent,1001,Monthly rent
+2023-01-01,Entertainment,866,Movies / fun
+2023-01-01,Miscellaneous,187,Random spend
+2023-01-02,Food,1471,Meals / groceries
+2023-01-02,Health,1269,Doctor/medicine
+2023-01-03,Transport,743,Bus/Taxi/Fuel
+2023-01-04,Food,1347,Meals / groceries
+2023-01-04,Transport,774,Bus/Taxi/Fuel
+2023-01-04,Miscellaneous,287,Random spend
+2023-01-05,Food,789,Meals / groceries
+2023-01-05,Transport,745,Bus/Taxi/Fuel
+2023-01-05,Bills,654,Electricity / Internet
+2023-01-06,Food,1084,Meals / groceries
+2023-01-06,Miscellaneous,487,Random spend
+2023-01-07,Entertainment,739,Movies / fun
+2023-01-08,Food,1027,Meals / groceries
+2023-01-08,Health,705,Doctor/medicine
+2023-01-08,Entertainment,961,Movies / fun
+2023-01-09,Food,989,Meals / groceries
+2023-01-09,Transport,559,Bus/Taxi/Fuel
+2023-01-11,Transport,514,Bus/Taxi/Fuel
+2023-01-14,Food,1456,Meals / groceries
+2023-01-14,Entertainment,871,Movies / fun
+2023-01-14,Miscellaneous,180,Random spend
+2023-01-16,Miscellaneous,161,Random spend
+2023-01-17,Food,698,Meals / groceries
+2023-01-18,Food,1061,Meals / groceries
+2023-01-19,Food,1394,Meals / groceries
+2023-01-19,Miscellaneous,278,Random spend
+2023-01-20,Food,1342,Meals / groceries
+2023-01-21,Food,830,Meals / groceries
+2023-01-21,Entertainment,559,Movies / fun
+2023-01-22,Food,1395,Meals / groceries
+2023-01-23,Transport,585,Bus/Taxi/Fuel
+2023-01-24,Food,1072,Meals / groceries
+2023-01-25,Food,1227,Meals / groceries
+2023-01-25,Miscellaneous,236,Random spend
+2023-01-26,Food,824,Meals / groceries
+2023-01-26,Transport,471,Bus/Taxi/Fuel
+2023-01-26,Miscellaneous,259,Random spend
+2023-01-27,Food,832,Meals / groceries
+2023-01-28,Food,1406,Meals / groceries
+2023-01-28,Entertainment,480,Movies / fun
+2023-01-29,Health,1748,Doctor/medicine
+2023-01-30,Food,1329,Meals / groceries
+2023-01-31,Transport,554,Bus/Taxi/Fuel
+2023-02-01,Rent,1047,Monthly rent
+2023-02-01,Food,1110,Meals / groceries
+2023-02-01,Transport,396,Bus/Taxi/Fuel
+2023-02-02,Food,1370,Meals / groceries
+2023-02-02,Miscellaneous,246,Random spend
+2023-02-03,Food,1310,Meals / groceries
+2023-02-03,Transport,716,Bus/Taxi/Fuel
+2023-02-04,Entertainment,814,Movies / fun
+2023-02-05,Food,1363,Meals / groceries
+2023-02-05,Transport,411,Bus/Taxi/Fuel
+2023-02-05,Bills,601,Electricity / Internet
+2023-02-06,Miscellaneous,332,Random spend
+2023-02-07,Food,1415,Meals / groceries
+2023-02-09,Food,853,Meals / groceries
+2023-02-09,Transport,772,Bus/Taxi/Fuel
+2023-02-09,Miscellaneous,483,Random spend
+2023-02-10,Food,1305,Meals / groceries
+2023-02-11,Transport,576,Bus/Taxi/Fuel
+2023-02-11,Entertainment,791,Movies / fun
+2023-02-12,Food,632,Meals / groceries
+2023-02-13,Food,829,Meals / groceries
+2023-02-15,Food,1428,Meals / groceries
+2023-02-16,Food,771,Meals / groceries
+2023-02-17,Food,1344,Meals / groceries
+2023-02-18,Food,1299,Meals / groceries
+2023-02-18,Entertainment,560,Movies / fun
+2023-02-19,Food,1392,Meals / groceries
+2023-02-19,Miscellaneous,213,Random spend
+2023-02-20,Food,1453,Meals / groceries
+2023-02-21,Food,703,Meals / groceries
+2023-02-22,Food,1358,Meals / groceries
+2023-02-23,Food,1424,Meals / groceries
+2023-02-23,Miscellaneous,499,Random spend
+2023-02-24,Food,1482,Meals / groceries
+2023-02-24,Miscellaneous,314,Random spend
+2023-02-25,Food,650,Meals / groceries
+2023-02-25,Entertainment,713,Movies / fun
+2023-02-26,Food,1281,Meals / groceries
+2023-02-26,Entertainment,663,Movies / fun
+2023-02-27,Food,604,Meals / groceries
+2023-02-27,Miscellaneous,449,Random spend
+2023-02-28,Food,1422,Meals / groceries
+2023-02-28,Transport,443,Bus/Taxi/Fuel
+2023-03-01,Rent,979,Monthly rent
+2023-03-01,Food,719,Meals / groceries
+2023-03-01,Transport,391,Bus/Taxi/Fuel
+2023-03-02,Food,1429,Meals / groceries
+2023-03-03,Food,1112,Meals / groceries
+2023-03-03,Miscellaneous,188,Random spend
+2023-03-04,Food,1484,Meals / groceries
+2023-03-05,Transport,453,Bus/Taxi/Fuel
+2023-03-05,Bills,784,Electricity / Internet
+2023-03-06,Food,646,Meals / groceries
+2023-03-06,Transport,537,Bus/Taxi/Fuel
+2023-03-06,Miscellaneous,499,Random spend
+2023-03-07,Food,1031,Meals / groceries
+2023-03-08,Food,1361,Meals / groceries
+2023-03-08,Miscellaneous,322,Random spend
+2023-03-09,Food,1258,Meals / groceries
+2023-03-10,Food,1391,Meals / groceries
+2023-03-11,Food,1451,Meals / groceries
+2023-03-12,Food,1212,Meals / groceries
+2023-03-13,Food,611,Meals / groceries
+2023-03-13,Transport,685,Bus/Taxi/Fuel
+2023-03-13,Health,1253,Doctor/medicine
+2023-03-14,Food,1375,Meals / groceries
+2023-03-15,Food,795,Meals / groceries
+2023-03-16,Food,1328,Meals / groceries
+2023-03-16,Miscellaneous,291,Random spend
+2023-03-17,Food,698,Meals / groceries
+2023-03-18,Food,789,Meals / groceries
+2023-03-19,Food,1397,Meals / groceries
+2023-03-20,Health,1756,Doctor/medicine
+2023-03-21,Food,1395,Meals / groceries
+2023-03-22,Food,1484,Meals / groceries
+2023-03-22,Transport,695,Bus/Taxi/Fuel
+2023-03-23,Miscellaneous,141,Random spend
+2023-03-25,Food,1442,Meals / groceries
+2023-03-25,Transport,375,Bus/Taxi/Fuel
+2023-03-26,Entertainment,1194,Movies / fun
+2023-03-27,Food,764,Meals / groceries
+2023-03-27,Transport,435,Bus/Taxi/Fuel
+2023-03-29,Food,1014,Meals / groceries
+2023-03-30,Food,1130,Meals / groceries
+2023-03-30,Transport,750,Bus/Taxi/Fuel
+2023-03-31,Food,1259,Meals / groceries
+2023-03-31,Transport,616,Bus/Taxi/Fuel
+2023-04-01,Rent,952,Monthly rent
+2023-04-01,Food,789,Meals / groceries
+2023-04-01,Entertainment,516,Movies / fun
+2023-04-02,Food,1271,Meals / groceries
+2023-04-02,Entertainment,612,Movies / fun
+2023-04-03,Food,826,Meals / groceries
+2023-04-03,Miscellaneous,404,Random spend
+2023-04-04,Food,1014,Meals / groceries
+2023-04-05,Bills,871,Electricity / Internet
+2023-04-06,Food,1267,Meals / groceries
+2023-04-07,Food,915,Meals / groceries
+2023-04-08,Entertainment,1123,Movies / fun
+2023-04-09,Food,1157,Meals / groceries
+2023-04-09,Transport,689,Bus/Taxi/Fuel
+2023-04-10,Food,1423,Meals / groceries
+2023-04-10,Miscellaneous,388,Random spend
+2023-04-13,Food,704,Meals / groceries
+2023-04-13,Miscellaneous,105,Random spend
+2023-04-14,Food,1308,Meals / groceries
+2023-04-15,Entertainment,477,Movies / fun
+2023-04-16,Food,1284,Meals / groceries
+2023-04-17,Food,671,Meals / groceries
+2023-04-17,Transport,549,Bus/Taxi/Fuel
+2023-04-18,Food,867,Meals / groceries
+2023-04-18,Miscellaneous,350,Random spend
+2023-04-19,Food,1223,Meals / groceries
+2023-04-20,Food,674,Meals / groceries
+2023-04-20,Transport,721,Bus/Taxi/Fuel
+2023-04-21,Food,1449,Meals / groceries
+2023-04-22,Food,765,Meals / groceries
+2023-04-22,Entertainment,505,Movies / fun
+2023-04-23,Transport,483,Bus/Taxi/Fuel
+2023-04-23,Miscellaneous,168,Random spend
+2023-04-25,Food,1482,Meals / groceries
+2023-04-26,Food,1119,Meals / groceries
+2023-04-26,Transport,687,Bus/Taxi/Fuel
+2023-04-27,Food,692,Meals / groceries
+2023-04-28,Miscellaneous,425,Random spend
+2023-04-29,Food,832,Meals / groceries
+2023-04-29,Entertainment,1129,Movies / fun
+2023-04-30,Food,848,Meals / groceries
+2023-04-30,Miscellaneous,147,Random spend
+2023-05-01,Rent,1010,Monthly rent
+2023-05-01,Food,1403,Meals / groceries
+2023-05-01,Miscellaneous,306,Random spend
+2023-05-02,Food,655,Meals / groceries
+2023-05-03,Food,964,Meals / groceries
+2023-05-03,Transport,486,Bus/Taxi/Fuel
+2023-05-04,Miscellaneous,393,Random spend
+2023-05-05,Food,614,Meals / groceries
+2023-05-05,Transport,418,Bus/Taxi/Fuel
+2023-05-05,Bills,801,Electricity / Internet
+2023-05-06,Transport,425,Bus/Taxi/Fuel
+2023-05-07,Food,666,Meals / groceries
+2023-05-08,Food,968,Meals / groceries
+2023-05-10,Food,976,Meals / groceries
+2023-05-10,Transport,449,Bus/Taxi/Fuel
+2023-05-11,Food,949,Meals / groceries
+2023-05-11,Transport,617,Bus/Taxi/Fuel
+2023-05-11,Miscellaneous,236,Random spend
+2023-05-12,Food,842,Meals / groceries
+2023-05-12,Transport,528,Bus/Taxi/Fuel
+2023-05-12,Miscellaneous,421,Random spend
+2023-05-13,Food,674,Meals / groceries
+2023-05-13,Entertainment,903,Movies / fun
+2023-05-14,Entertainment,572,Movies / fun
+2023-05-15,Food,717,Meals / groceries
+2023-05-16,Food,600,Meals / groceries
+2023-05-17,Food,1467,Meals / groceries
+2023-05-18,Food,860,Meals / groceries
+2023-05-18,Transport,471,Bus/Taxi/Fuel
+2023-05-19,Food,918,Meals / groceries
+2023-05-20,Food,1018,Meals / groceries
+2023-05-21,Food,975,Meals / groceries
+2023-05-21,Entertainment,912,Movies / fun
+2023-05-22,Food,1431,Meals / groceries
+2023-05-24,Food,1173,Meals / groceries
+2023-05-26,Food,622,Meals / groceries
+2023-05-27,Food,1420,Meals / groceries
+2023-05-27,Entertainment,1045,Movies / fun
+2023-05-31,Miscellaneous,496,Random spend
+2023-06-01,Rent,980,Monthly rent
+2023-06-01,Food,1476,Meals / groceries
+2023-06-01,Transport,483,Bus/Taxi/Fuel
+2023-06-02,Food,923,Meals / groceries
+2023-06-03,Food,891,Meals / groceries
+2023-06-04,Food,733,Meals / groceries
+2023-06-04,Miscellaneous,240,Random spend
+2023-06-05,Food,809,Meals / groceries
+2023-06-05,Health,1327,Doctor/medicine
+2023-06-05,Bills,770,Electricity / Internet
+2023-06-06,Food,923,Meals / groceries
+2023-06-06,Health,626,Doctor/medicine
+2023-06-06,Miscellaneous,191,Random spend
+2023-06-07,Food,650,Meals / groceries
+2023-06-08,Food,1413,Meals / groceries
+2023-06-08,Transport,645,Bus/Taxi/Fuel
+2023-06-08,Miscellaneous,412,Random spend
+2023-06-09,Food,1166,Meals / groceries
+2023-06-09,Transport,698,Bus/Taxi/Fuel
+2023-06-09,Miscellaneous,236,Random spend
+2023-06-10,Food,912,Meals / groceries
+2023-06-10,Transport,724,Bus/Taxi/Fuel
+2023-06-10,Entertainment,1001,Movies / fun
+2023-06-11,Food,809,Meals / groceries
+2023-06-11,Miscellaneous,350,Random spend
+2023-06-12,Food,1263,Meals / groceries
+2023-06-12,Miscellaneous,260,Random spend
+2023-06-13,Food,662,Meals / groceries
+2023-06-13,Transport,453,Bus/Taxi/Fuel
+2023-06-13,Health,1992,Doctor/medicine
+2023-06-15,Food,959,Meals / groceries
+2023-06-15,Miscellaneous,314,Random spend
+2023-06-16,Food,1322,Meals / groceries
+2023-06-17,Food,743,Meals / groceries
+2023-06-18,Food,712,Meals / groceries
+2023-06-18,Entertainment,663,Movies / fun
+2023-06-20,Food,686,Meals / groceries
+2023-06-21,Food,912,Meals / groceries
+2023-06-21,Transport,771,Bus/Taxi/Fuel
+2023-06-22,Food,1360,Meals / groceries
+2023-06-23,Food,1017,Meals / groceries
+2023-06-24,Entertainment,1134,Movies / fun
+2023-06-25,Food,929,Meals / groceries
+2023-06-25,Transport,450,Bus/Taxi/Fuel
+2023-06-25,Entertainment,947,Movies / fun
+2023-06-27,Health,760,Doctor/medicine
+2023-07-01,Rent,1030,Monthly rent
+2023-07-01,Food,1151,Meals / groceries
+2023-07-01,Entertainment,677,Movies / fun
+2023-07-02,Entertainment,474,Movies / fun
+2023-07-03,Food,641,Meals / groceries
+2023-07-04,Food,977,Meals / groceries
+2023-07-04,Miscellaneous,126,Random spend
+2023-07-05,Bills,867,Electricity / Internet
+2023-07-06,Food,1284,Meals / groceries
+2023-07-07,Food,729,Meals / groceries
+2023-07-07,Transport,662,Bus/Taxi/Fuel
+2023-07-07,Miscellaneous,470,Random spend
+2023-07-08,Food,748,Meals / groceries
+2023-07-09,Food,909,Meals / groceries
+2023-07-10,Food,1147,Meals / groceries
+2023-07-12,Food,672,Meals / groceries
+2023-07-12,Transport,316,Bus/Taxi/Fuel
+2023-07-13,Food,624,Meals / groceries
+2023-07-13,Transport,430,Bus/Taxi/Fuel
+2023-07-13,Miscellaneous,201,Random spend
+2023-07-14,Food,874,Meals / groceries
+2023-07-15,Entertainment,991,Movies / fun
+2023-07-17,Food,688,Meals / groceries
+2023-07-17,Miscellaneous,125,Random spend
+2023-07-18,Food,1377,Meals / groceries
+2023-07-19,Food,990,Meals / groceries
+2023-07-19,Transport,416,Bus/Taxi/Fuel
+2023-07-19,Miscellaneous,427,Random spend
+2023-07-21,Miscellaneous,258,Random spend
+2023-07-22,Food,1219,Meals / groceries
+2023-07-22,Transport,397,Bus/Taxi/Fuel
+2023-07-23,Food,638,Meals / groceries
+2023-07-24,Food,615,Meals / groceries
+2023-07-25,Food,1145,Meals / groceries
+2023-07-25,Transport,546,Bus/Taxi/Fuel
+2023-07-26,Transport,601,Bus/Taxi/Fuel
+2023-07-27,Food,844,Meals / groceries
+2023-07-28,Food,958,Meals / groceries
+2023-07-28,Miscellaneous,241,Random spend
+2023-07-29,Food,923,Meals / groceries
+2023-07-29,Entertainment,984,Movies / fun
+2023-07-29,Miscellaneous,476,Random spend
+2023-07-30,Food,739,Meals / groceries
+2023-07-30,Entertainment,779,Movies / fun
+2023-08-01,Rent,974,Monthly rent
+2023-08-01,Transport,371,Bus/Taxi/Fuel
+2023-08-02,Food,1092,Meals / groceries
+2023-08-02,Transport,406,Bus/Taxi/Fuel
+2023-08-03,Food,858,Meals / groceries
+2023-08-04,Food,1120,Meals / groceries
+2023-08-04,Miscellaneous,277,Random spend
+2023-08-05,Food,744,Meals / groceries
+2023-08-05,Transport,459,Bus/Taxi/Fuel
+2023-08-05,Bills,980,Electricity / Internet
+2023-08-06,Food,956,Meals / groceries
+2023-08-06,Transport,404,Bus/Taxi/Fuel
+2023-08-06,Entertainment,940,Movies / fun
+2023-08-08,Food,825,Meals / groceries
+2023-08-10,Food,1192,Meals / groceries
+2023-08-10,Transport,600,Bus/Taxi/Fuel
+2023-08-12,Food,861,Meals / groceries
+2023-08-12,Entertainment,970,Movies / fun
+2023-08-14,Transport,534,Bus/Taxi/Fuel
+2023-08-15,Transport,459,Bus/Taxi/Fuel
+2023-08-16,Food,955,Meals / groceries
+2023-08-17,Food,1124,Meals / groceries
+2023-08-18,Food,1299,Meals / groceries
+2023-08-18,Transport,664,Bus/Taxi/Fuel
+2023-08-18,Miscellaneous,173,Random spend
+2023-08-19,Food,1430,Meals / groceries
+2023-08-20,Food,1083,Meals / groceries
+2023-08-20,Transport,518,Bus/Taxi/Fuel
+2023-08-21,Food,621,Meals / groceries
+2023-08-21,Health,805,Doctor/medicine
+2023-08-22,Food,1315,Meals / groceries
+2023-08-23,Food,632,Meals / groceries
+2023-08-24,Food,1137,Meals / groceries
+2023-08-24,Transport,525,Bus/Taxi/Fuel
+2023-08-25,Food,638,Meals / groceries
+2023-08-26,Entertainment,1106,Movies / fun
+2023-08-27,Food,1203,Meals / groceries
+2023-08-31,Food,1256,Meals / groceries
+2023-08-31,Transport,307,Bus/Taxi/Fuel
+2023-09-01,Rent,1020,Monthly rent
+2023-09-01,Food,1292,Meals / groceries
+2023-09-01,Miscellaneous,114,Random spend
+2023-09-02,Food,805,Meals / groceries
+2023-09-02,Entertainment,920,Movies / fun
+2023-09-03,Food,1430,Meals / groceries
+2023-09-04,Transport,576,Bus/Taxi/Fuel
+2023-09-05,Food,1206,Meals / groceries
+2023-09-05,Bills,816,Electricity / Internet
+2023-09-06,Transport,513,Bus/Taxi/Fuel
+2023-09-06,Miscellaneous,175,Random spend
+2023-09-07,Transport,379,Bus/Taxi/Fuel
+2023-09-08,Food,841,Meals / groceries
+2023-09-08,Miscellaneous,176,Random spend
+2023-09-09,Food,702,Meals / groceries
+2023-09-09,Transport,658,Bus/Taxi/Fuel
+2023-09-10,Food,1027,Meals / groceries
+2023-09-10,Transport,758,Bus/Taxi/Fuel
+2023-09-11,Food,822,Meals / groceries
+2023-09-13,Food,683,Meals / groceries
+2023-09-14,Food,726,Meals / groceries
+2023-09-14,Miscellaneous,111,Random spend
+2023-09-15,Food,1136,Meals / groceries
+2023-09-16,Food,1332,Meals / groceries
+2023-09-16,Entertainment,993,Movies / fun
+2023-09-16,Miscellaneous,310,Random spend
+2023-09-17,Food,951,Meals / groceries
+2023-09-17,Entertainment,1154,Movies / fun
+2023-09-18,Food,806,Meals / groceries
+2023-09-18,Transport,631,Bus/Taxi/Fuel
+2023-09-19,Food,623,Meals / groceries
+2023-09-20,Transport,476,Bus/Taxi/Fuel
+2023-09-21,Food,1465,Meals / groceries
+2023-09-22,Food,1354,Meals / groceries
+2023-09-23,Food,1151,Meals / groceries
+2023-09-24,Food,897,Meals / groceries
+2023-09-24,Transport,633,Bus/Taxi/Fuel
+2023-09-24,Entertainment,952,Movies / fun
+2023-09-26,Food,1437,Meals / groceries
+2023-09-27,Transport,748,Bus/Taxi/Fuel
+2023-09-27,Miscellaneous,400,Random spend
+2023-09-28,Food,886,Meals / groceries
+2023-09-28,Transport,494,Bus/Taxi/Fuel
+2023-09-29,Food,1443,Meals / groceries
+2023-09-30,Food,1112,Meals / groceries
+2023-09-30,Transport,673,Bus/Taxi/Fuel
+2023-09-30,Entertainment,1086,Movies / fun
+2023-10-01,Rent,986,Monthly rent
+2023-10-02,Food,1481,Meals / groceries
+2023-10-03,Food,600,Meals / groceries
+2023-10-03,Transport,497,Bus/Taxi/Fuel
+2023-10-03,Miscellaneous,260,Random spend
+2023-10-04,Food,805,Meals / groceries
+2023-10-05,Food,725,Meals / groceries
+2023-10-05,Bills,784,Electricity / Internet
+2023-10-06,Food,1026,Meals / groceries
+2023-10-06,Miscellaneous,483,Random spend
+2023-10-07,Food,907,Meals / groceries
+2023-10-08,Food,1375,Meals / groceries
+2023-10-08,Transport,657,Bus/Taxi/Fuel
+2023-10-08,Entertainment,592,Movies / fun
+2023-10-10,Health,844,Doctor/medicine
+2023-10-11,Food,746,Meals / groceries
+2023-10-12,Food,819,Meals / groceries
+2023-10-12,Transport,491,Bus/Taxi/Fuel
+2023-10-12,Health,1684,Doctor/medicine
+2023-10-15,Miscellaneous,409,Random spend
+2023-10-16,Food,1324,Meals / groceries
+2023-10-17,Food,1427,Meals / groceries
+2023-10-18,Food,701,Meals / groceries
+2023-10-18,Transport,654,Bus/Taxi/Fuel
+2023-10-20,Miscellaneous,232,Random spend
+2023-10-21,Food,892,Meals / groceries
+2023-10-21,Transport,527,Bus/Taxi/Fuel
+2023-10-22,Health,906,Doctor/medicine
+2023-10-22,Entertainment,735,Movies / fun
+2023-10-23,Transport,502,Bus/Taxi/Fuel
+2023-10-23,Miscellaneous,240,Random spend
+2023-10-24,Food,1401,Meals / groceries
+2023-10-24,Transport,751,Bus/Taxi/Fuel
+2023-10-25,Food,1350,Meals / groceries
+2023-10-25,Miscellaneous,257,Random spend
+2023-10-26,Transport,431,Bus/Taxi/Fuel
+2023-10-27,Food,707,Meals / groceries
+2023-10-27,Transport,696,Bus/Taxi/Fuel
+2023-10-28,Transport,739,Bus/Taxi/Fuel
+2023-10-28,Entertainment,1174,Movies / fun
+2023-10-29,Food,1284,Meals / groceries
+2023-10-30,Transport,308,Bus/Taxi/Fuel
+2023-10-30,Miscellaneous,220,Random spend
+2023-11-01,Rent,986,Monthly rent
+2023-11-01,Food,1263,Meals / groceries
+2023-11-02,Food,1275,Meals / groceries
+2023-11-02,Transport,738,Bus/Taxi/Fuel
+2023-11-02,Miscellaneous,207,Random spend
+2023-11-03,Transport,764,Bus/Taxi/Fuel
+2023-11-04,Food,1054,Meals / groceries
+2023-11-04,Entertainment,908,Movies / fun
+2023-11-04,Miscellaneous,357,Random spend
+2023-11-05,Food,862,Meals / groceries
+2023-11-05,Entertainment,566,Movies / fun
+2023-11-05,Bills,840,Electricity / Internet
+2023-11-05,Miscellaneous,379,Random spend
+2023-11-06,Food,1130,Meals / groceries
+2023-11-07,Transport,528,Bus/Taxi/Fuel
+2023-11-07,Miscellaneous,235,Random spend
+2023-11-08,Food,669,Meals / groceries
+2023-11-09,Food,1116,Meals / groceries
+2023-11-09,Transport,459,Bus/Taxi/Fuel
+2023-11-10,Food,1411,Meals / groceries
+2023-11-12,Food,1411,Meals / groceries
+2023-11-12,Transport,752,Bus/Taxi/Fuel
+2023-11-13,Food,1045,Meals / groceries
+2023-11-13,Miscellaneous,499,Random spend
+2023-11-14,Food,1114,Meals / groceries
+2023-11-15,Food,1116,Meals / groceries
+2023-11-16,Food,683,Meals / groceries
+2023-11-17,Food,1383,Meals / groceries
+2023-11-17,Miscellaneous,391,Random spend
+2023-11-18,Food,713,Meals / groceries
+2023-11-18,Entertainment,1160,Movies / fun
+2023-11-19,Food,779,Meals / groceries
+2023-11-19,Transport,453,Bus/Taxi/Fuel
+2023-11-20,Food,941,Meals / groceries
+2023-11-21,Food,1277,Meals / groceries
+2023-11-23,Food,1004,Meals / groceries
+2023-11-23,Transport,646,Bus/Taxi/Fuel
+2023-11-24,Miscellaneous,409,Random spend
+2023-11-25,Food,694,Meals / groceries
+2023-11-25,Miscellaneous,486,Random spend
+2023-11-26,Entertainment,936,Movies / fun
+2023-11-27,Food,611,Meals / groceries
+2023-11-28,Food,1257,Meals / groceries
+2023-11-28,Transport,746,Bus/Taxi/Fuel
+2023-11-29,Food,659,Meals / groceries
+2023-11-30,Food,944,Meals / groceries
+2023-11-30,Transport,566,Bus/Taxi/Fuel
+2023-12-01,Rent,1028,Monthly rent
+2023-12-01,Transport,398,Bus/Taxi/Fuel
+2023-12-02,Food,862,Meals / groceries
+2023-12-04,Food,662,Meals / groceries
+2023-12-05,Food,754,Meals / groceries
+2023-12-05,Bills,828,Electricity / Internet
+2023-12-06,Transport,361,Bus/Taxi/Fuel
+2023-12-06,Miscellaneous,178,Random spend
+2023-12-07,Food,1070,Meals / groceries
+2023-12-07,Transport,722,Bus/Taxi/Fuel
+2023-12-08,Miscellaneous,259,Random spend
+2023-12-09,Food,1096,Meals / groceries
+2023-12-09,Miscellaneous,381,Random spend
+2023-12-10,Food,1145,Meals / groceries
+2023-12-10,Entertainment,1144,Movies / fun
+2023-12-11,Miscellaneous,291,Random spend
+2023-12-13,Food,609,Meals / groceries
+2023-12-15,Food,1454,Meals / groceries
+2023-12-16,Food,700,Meals / groceries
+2023-12-16,Transport,499,Bus/Taxi/Fuel
+2023-12-16,Miscellaneous,251,Random spend
+2023-12-17,Food,747,Meals / groceries
+2023-12-17,Entertainment,1050,Movies / fun
+2023-12-19,Food,951,Meals / groceries
+2023-12-19,Transport,437,Bus/Taxi/Fuel
+2023-12-19,Health,1491,Doctor/medicine
+2023-12-21,Food,1160,Meals / groceries
+2023-12-21,Transport,623,Bus/Taxi/Fuel
+2023-12-22,Food,789,Meals / groceries
+2023-12-22,Miscellaneous,446,Random spend
+2023-12-24,Food,1122,Meals / groceries
+2023-12-24,Transport,572,Bus/Taxi/Fuel
+2023-12-24,Entertainment,1064,Movies / fun
+2023-12-25,Food,1225,Meals / groceries
+2023-12-25,Miscellaneous,387,Random spend
+2023-12-26,Food,712,Meals / groceries
+2023-12-30,Health,1989,Doctor/medicine
+2023-12-30,Entertainment,612,Movies / fun
+2023-12-31,Transport,798,Bus/Taxi/Fuel
+2023-12-31,Entertainment,677,Movies / fun
+2024-01-01,Rent,1010,Monthly rent
+2024-01-01,Miscellaneous,129,Random spend
+2024-01-02,Miscellaneous,461,Random spend
+2024-01-03,Food,1183,Meals / groceries
+2024-01-03,Transport,560,Bus/Taxi/Fuel
+2024-01-04,Food,1431,Meals / groceries
+2024-01-05,Bills,711,Electricity / Internet
+2024-01-06,Food,1197,Meals / groceries
+2024-01-06,Miscellaneous,220,Random spend
+2024-01-07,Entertainment,469,Movies / fun
+2024-01-10,Food,1004,Meals / groceries
+2024-01-10,Transport,729,Bus/Taxi/Fuel
+2024-01-11,Food,718,Meals / groceries
+2024-01-12,Food,1297,Meals / groceries
+2024-01-13,Food,1193,Meals / groceries
+2024-01-13,Health,1414,Doctor/medicine
+2024-01-13,Entertainment,610,Movies / fun
+2024-01-13,Miscellaneous,208,Random spend
+2024-01-15,Food,949,Meals / groceries
+2024-01-15,Miscellaneous,215,Random spend
+2024-01-16,Food,1075,Meals / groceries
+2024-01-17,Food,1000,Meals / groceries
+2024-01-17,Miscellaneous,498,Random spend
+2024-01-18,Food,677,Meals / groceries
+2024-01-19,Food,1099,Meals / groceries
+2024-01-19,Miscellaneous,212,Random spend
+2024-01-20,Food,1229,Meals / groceries
+2024-01-20,Transport,636,Bus/Taxi/Fuel
+2024-01-20,Miscellaneous,134,Random spend
+2024-01-21,Food,1180,Meals / groceries
+2024-01-22,Food,1181,Meals / groceries
+2024-01-22,Health,1818,Doctor/medicine
+2024-01-23,Food,912,Meals / groceries
+2024-01-23,Transport,596,Bus/Taxi/Fuel
+2024-01-24,Food,1142,Meals / groceries
+2024-01-24,Miscellaneous,463,Random spend
+2024-01-25,Food,941,Meals / groceries
+2024-01-25,Transport,462,Bus/Taxi/Fuel
+2024-01-27,Food,1440,Meals / groceries
+2024-01-27,Health,1095,Doctor/medicine
+2024-01-28,Food,1289,Meals / groceries
+2024-01-28,Miscellaneous,347,Random spend
+2024-01-29,Food,1071,Meals / groceries
+2024-01-29,Miscellaneous,475,Random spend
+2024-01-30,Food,912,Meals / groceries
+2024-01-30,Miscellaneous,186,Random spend
+2024-01-31,Food,904,Meals / groceries
+2024-02-01,Rent,1010,Monthly rent
+2024-02-01,Food,777,Meals / groceries
+2024-02-01,Miscellaneous,185,Random spend
+2024-02-02,Food,1192,Meals / groceries
+2024-02-03,Food,1022,Meals / groceries
+2024-02-03,Entertainment,597,Movies / fun
+2024-02-04,Food,1116,Meals / groceries
+2024-02-05,Food,1236,Meals / groceries
+2024-02-05,Bills,893,Electricity / Internet
+2024-02-06,Food,1303,Meals / groceries
+2024-02-08,Food,1343,Meals / groceries
+2024-02-09,Food,1279,Meals / groceries
+2024-02-09,Miscellaneous,347,Random spend
+2024-02-10,Food,643,Meals / groceries
+2024-02-10,Entertainment,835,Movies / fun
+2024-02-11,Food,1026,Meals / groceries
+2024-02-11,Entertainment,985,Movies / fun
+2024-02-11,Miscellaneous,396,Random spend
+2024-02-12,Food,1196,Meals / groceries
+2024-02-12,Miscellaneous,337,Random spend
+2024-02-13,Food,1153,Meals / groceries
+2024-02-13,Miscellaneous,435,Random spend
+2024-02-15,Food,728,Meals / groceries
+2024-02-15,Transport,307,Bus/Taxi/Fuel
+2024-02-16,Food,859,Meals / groceries
+2024-02-17,Food,1413,Meals / groceries
+2024-02-17,Entertainment,932,Movies / fun
+2024-02-18,Food,701,Meals / groceries
+2024-02-18,Entertainment,936,Movies / fun
+2024-02-18,Miscellaneous,295,Random spend
+2024-02-20,Food,1076,Meals / groceries
+2024-02-20,Transport,785,Bus/Taxi/Fuel
+2024-02-21,Food,994,Meals / groceries
+2024-02-22,Food,730,Meals / groceries
+2024-02-23,Food,817,Meals / groceries
+2024-02-23,Transport,768,Bus/Taxi/Fuel
+2024-02-24,Transport,374,Bus/Taxi/Fuel
+2024-02-25,Miscellaneous,371,Random spend
+2024-02-26,Food,1082,Meals / groceries
+2024-02-26,Miscellaneous,300,Random spend
+2024-02-27,Food,600,Meals / groceries
+2024-02-28,Food,1414,Meals / groceries
+2024-02-28,Miscellaneous,216,Random spend
+2024-02-29,Food,1253,Meals / groceries
+2024-03-01,Rent,1026,Monthly rent
+2024-03-01,Miscellaneous,190,Random spend
+2024-03-02,Food,1157,Meals / groceries
+2024-03-03,Transport,383,Bus/Taxi/Fuel
+2024-03-03,Health,923,Doctor/medicine
+2024-03-04,Food,682,Meals / groceries
+2024-03-05,Bills,672,Electricity / Internet
+2024-03-06,Transport,730,Bus/Taxi/Fuel
+2024-03-07,Food,1275,Meals / groceries
+2024-03-07,Transport,585,Bus/Taxi/Fuel
+2024-03-07,Health,1172,Doctor/medicine
+2024-03-08,Food,802,Meals / groceries
+2024-03-08,Transport,788,Bus/Taxi/Fuel
+2024-03-09,Food,667,Meals / groceries
+2024-03-09,Entertainment,997,Movies / fun
+2024-03-10,Food,1294,Meals / groceries
+2024-03-10,Entertainment,667,Movies / fun
+2024-03-11,Miscellaneous,375,Random spend
+2024-03-12,Food,1283,Meals / groceries
+2024-03-12,Transport,500,Bus/Taxi/Fuel
+2024-03-14,Food,931,Meals / groceries
+2024-03-14,Miscellaneous,246,Random spend
+2024-03-16,Food,1268,Meals / groceries
+2024-03-16,Entertainment,1171,Movies / fun
+2024-03-17,Food,1453,Meals / groceries
+2024-03-17,Transport,771,Bus/Taxi/Fuel
+2024-03-18,Food,861,Meals / groceries
+2024-03-18,Health,1072,Doctor/medicine
+2024-03-19,Food,1247,Meals / groceries
+2024-03-19,Transport,661,Bus/Taxi/Fuel
+2024-03-20,Food,1023,Meals / groceries
+2024-03-21,Food,1300,Meals / groceries
+2024-03-21,Transport,601,Bus/Taxi/Fuel
+2024-03-21,Health,1659,Doctor/medicine
+2024-03-21,Miscellaneous,479,Random spend
+2024-03-22,Food,1406,Meals / groceries
+2024-03-23,Food,981,Meals / groceries
+2024-03-23,Transport,643,Bus/Taxi/Fuel
+2024-03-23,Miscellaneous,406,Random spend
+2024-03-24,Health,1278,Doctor/medicine
+2024-03-24,Entertainment,732,Movies / fun
+2024-03-25,Food,767,Meals / groceries
+2024-03-27,Health,1358,Doctor/medicine
+2024-03-27,Miscellaneous,257,Random spend
+2024-03-28,Food,1326,Meals / groceries
+2024-03-28,Transport,639,Bus/Taxi/Fuel
+2024-03-28,Miscellaneous,260,Random spend
+2024-03-29,Food,1193,Meals / groceries
+2024-03-29,Transport,538,Bus/Taxi/Fuel
+2024-03-30,Food,977,Meals / groceries
+2024-03-30,Entertainment,1196,Movies / fun
+2024-03-31,Food,1442,Meals / groceries
+2024-03-31,Entertainment,1112,Movies / fun
+2024-04-01,Rent,977,Monthly rent
+2024-04-01,Food,1053,Meals / groceries
+2024-04-01,Transport,301,Bus/Taxi/Fuel
+2024-04-03,Food,910,Meals / groceries
+2024-04-03,Health,1736,Doctor/medicine
+2024-04-04,Food,878,Meals / groceries
+2024-04-05,Bills,672,Electricity / Internet
+2024-04-08,Food,1211,Meals / groceries
+2024-04-09,Food,606,Meals / groceries
+2024-04-09,Transport,355,Bus/Taxi/Fuel
+2024-04-10,Food,801,Meals / groceries
+2024-04-11,Food,725,Meals / groceries
+2024-04-12,Food,1287,Meals / groceries
+2024-04-12,Transport,503,Bus/Taxi/Fuel
+2024-04-12,Miscellaneous,212,Random spend
+2024-04-13,Food,1436,Meals / groceries
+2024-04-13,Transport,643,Bus/Taxi/Fuel
+2024-04-14,Food,962,Meals / groceries
+2024-04-14,Entertainment,524,Movies / fun
+2024-04-15,Food,1084,Meals / groceries
+2024-04-16,Food,1245,Meals / groceries
+2024-04-17,Food,1030,Meals / groceries
+2024-04-17,Transport,700,Bus/Taxi/Fuel
+2024-04-18,Food,764,Meals / groceries
+2024-04-18,Miscellaneous,408,Random spend
+2024-04-20,Food,1096,Meals / groceries
+2024-04-20,Entertainment,538,Movies / fun
+2024-04-21,Food,1203,Meals / groceries
+2024-04-21,Entertainment,538,Movies / fun
+2024-04-23,Miscellaneous,104,Random spend
+2024-04-24,Food,763,Meals / groceries
+2024-04-25,Food,1421,Meals / groceries
+2024-04-25,Miscellaneous,494,Random spend
+2024-04-26,Food,1116,Meals / groceries
+2024-04-27,Transport,446,Bus/Taxi/Fuel
+2024-04-27,Entertainment,981,Movies / fun
+2024-04-28,Food,701,Meals / groceries
+2024-04-28,Entertainment,1114,Movies / fun
+2024-04-29,Food,1064,Meals / groceries
+2024-05-01,Rent,997,Monthly rent
+2024-05-01,Transport,728,Bus/Taxi/Fuel
+2024-05-02,Transport,593,Bus/Taxi/Fuel
+2024-05-02,Miscellaneous,288,Random spend
+2024-05-03,Transport,779,Bus/Taxi/Fuel
+2024-05-03,Miscellaneous,422,Random spend
+2024-05-04,Food,1409,Meals / groceries
+2024-05-05,Bills,969,Electricity / Internet
+2024-05-06,Transport,434,Bus/Taxi/Fuel
+2024-05-06,Health,1815,Doctor/medicine
+2024-05-07,Transport,531,Bus/Taxi/Fuel
+2024-05-08,Miscellaneous,122,Random spend
+2024-05-09,Food,983,Meals / groceries
+2024-05-09,Health,1598,Doctor/medicine
+2024-05-10,Food,787,Meals / groceries
+2024-05-10,Miscellaneous,182,Random spend
+2024-05-11,Food,1127,Meals / groceries
+2024-05-12,Food,921,Meals / groceries
+2024-05-12,Transport,312,Bus/Taxi/Fuel
+2024-05-12,Entertainment,689,Movies / fun
+2024-05-14,Food,1164,Meals / groceries
+2024-05-15,Food,1002,Meals / groceries
+2024-05-15,Miscellaneous,436,Random spend
+2024-05-17,Food,1259,Meals / groceries
+2024-05-18,Miscellaneous,363,Random spend
+2024-05-19,Food,1230,Meals / groceries
+2024-05-19,Transport,589,Bus/Taxi/Fuel
+2024-05-19,Miscellaneous,303,Random spend
+2024-05-20,Food,1040,Meals / groceries
+2024-05-20,Transport,648,Bus/Taxi/Fuel
+2024-05-20,Health,1619,Doctor/medicine
+2024-05-22,Transport,455,Bus/Taxi/Fuel
+2024-05-23,Food,1273,Meals / groceries
+2024-05-24,Food,776,Meals / groceries
+2024-05-25,Food,1070,Meals / groceries
+2024-05-26,Food,622,Meals / groceries
+2024-05-26,Transport,534,Bus/Taxi/Fuel
+2024-05-27,Miscellaneous,310,Random spend
+2024-05-28,Food,1409,Meals / groceries
+2024-05-28,Transport,603,Bus/Taxi/Fuel
+2024-05-29,Food,1095,Meals / groceries
+2024-05-29,Transport,761,Bus/Taxi/Fuel
+2024-05-29,Miscellaneous,112,Random spend
+2024-05-30,Food,996,Meals / groceries
+2024-06-01,Rent,1036,Monthly rent
+2024-06-01,Food,761,Meals / groceries
+2024-06-01,Entertainment,402,Movies / fun
+2024-06-02,Food,748,Meals / groceries
+2024-06-02,Miscellaneous,334,Random spend
+2024-06-03,Food,912,Meals / groceries
+2024-06-04,Food,1185,Meals / groceries
+2024-06-04,Transport,464,Bus/Taxi/Fuel
+2024-06-05,Health,886,Doctor/medicine
+2024-06-05,Bills,710,Electricity / Internet
+2024-06-06,Transport,328,Bus/Taxi/Fuel
+2024-06-07,Food,829,Meals / groceries
+2024-06-08,Food,1203,Meals / groceries
+2024-06-08,Entertainment,1098,Movies / fun
+2024-06-09,Food,1020,Meals / groceries
+2024-06-09,Transport,779,Bus/Taxi/Fuel
+2024-06-09,Entertainment,454,Movies / fun
+2024-06-10,Food,1237,Meals / groceries
+2024-06-11,Food,827,Meals / groceries
+2024-06-11,Health,830,Doctor/medicine
+2024-06-12,Food,1103,Meals / groceries
+2024-06-13,Food,1088,Meals / groceries
+2024-06-14,Food,817,Meals / groceries
+2024-06-15,Food,1033,Meals / groceries
+2024-06-17,Food,1060,Meals / groceries
+2024-06-18,Food,1090,Meals / groceries
+2024-06-20,Food,1481,Meals / groceries
+2024-06-20,Transport,607,Bus/Taxi/Fuel
+2024-06-20,Miscellaneous,260,Random spend
+2024-06-22,Food,1052,Meals / groceries
+2024-06-23,Food,822,Meals / groceries
+2024-06-23,Transport,777,Bus/Taxi/Fuel
+2024-06-23,Entertainment,892,Movies / fun
+2024-06-23,Miscellaneous,260,Random spend
+2024-06-24,Food,930,Meals / groceries
+2024-06-25,Transport,654,Bus/Taxi/Fuel
+2024-06-27,Transport,657,Bus/Taxi/Fuel
+2024-06-28,Food,1482,Meals / groceries
+2024-06-29,Food,1447,Meals / groceries
+2024-06-29,Entertainment,407,Movies / fun
+2024-06-30,Food,1205,Meals / groceries
+2024-06-30,Entertainment,999,Movies / fun
+2024-07-01,Rent,1042,Monthly rent
+2024-07-01,Food,736,Meals / groceries
+2024-07-02,Food,854,Meals / groceries
+2024-07-04,Food,1050,Meals / groceries
+2024-07-04,Health,1239,Doctor/medicine
+2024-07-05,Food,1266,Meals / groceries
+2024-07-05,Bills,688,Electricity / Internet
+2024-07-06,Food,1003,Meals / groceries
+2024-07-07,Food,873,Meals / groceries
+2024-07-09,Food,914,Meals / groceries
+2024-07-09,Transport,404,Bus/Taxi/Fuel
+2024-07-10,Food,1348,Meals / groceries
+2024-07-10,Transport,367,Bus/Taxi/Fuel
+2024-07-11,Food,698,Meals / groceries
+2024-07-11,Miscellaneous,298,Random spend
+2024-07-13,Entertainment,620,Movies / fun
+2024-07-14,Food,711,Meals / groceries
+2024-07-14,Entertainment,670,Movies / fun
+2024-07-15,Food,966,Meals / groceries
+2024-07-16,Food,1135,Meals / groceries
+2024-07-17,Food,780,Meals / groceries
+2024-07-17,Transport,578,Bus/Taxi/Fuel
+2024-07-18,Food,1280,Meals / groceries
+2024-07-18,Transport,548,Bus/Taxi/Fuel
+2024-07-19,Transport,402,Bus/Taxi/Fuel
+2024-07-20,Food,1290,Meals / groceries
+2024-07-20,Transport,751,Bus/Taxi/Fuel
+2024-07-20,Entertainment,910,Movies / fun
+2024-07-21,Food,942,Meals / groceries
+2024-07-22,Food,784,Meals / groceries
+2024-07-24,Food,1170,Meals / groceries
+2024-07-24,Miscellaneous,261,Random spend
+2024-07-25,Miscellaneous,372,Random spend
+2024-07-26,Food,1035,Meals / groceries
+2024-07-28,Food,1382,Meals / groceries
+2024-07-30,Food,740,Meals / groceries
+2024-07-30,Transport,639,Bus/Taxi/Fuel
+2024-08-01,Rent,1014,Monthly rent
+2024-08-01,Food,1073,Meals / groceries
+2024-08-01,Transport,331,Bus/Taxi/Fuel
+2024-08-02,Food,642,Meals / groceries
+2024-08-02,Health,1325,Doctor/medicine
+2024-08-03,Transport,515,Bus/Taxi/Fuel
+2024-08-04,Transport,492,Bus/Taxi/Fuel
+2024-08-04,Entertainment,924,Movies / fun
+2024-08-05,Bills,642,Electricity / Internet
+2024-08-06,Food,1051,Meals / groceries
+2024-08-07,Food,1439,Meals / groceries
+2024-08-07,Transport,739,Bus/Taxi/Fuel
+2024-08-08,Miscellaneous,212,Random spend
+2024-08-09,Food,1164,Meals / groceries
+2024-08-10,Food,1168,Meals / groceries
+2024-08-10,Entertainment,432,Movies / fun
+2024-08-11,Food,618,Meals / groceries
+2024-08-11,Entertainment,1078,Movies / fun
+2024-08-12,Food,1293,Meals / groceries
+2024-08-14,Health,701,Doctor/medicine
+2024-08-14,Miscellaneous,105,Random spend
+2024-08-15,Food,1011,Meals / groceries
+2024-08-16,Food,1330,Meals / groceries
+2024-08-17,Food,1402,Meals / groceries
+2024-08-17,Transport,423,Bus/Taxi/Fuel
+2024-08-17,Miscellaneous,394,Random spend
+2024-08-18,Food,1094,Meals / groceries
+2024-08-18,Entertainment,507,Movies / fun
+2024-08-19,Food,1433,Meals / groceries
+2024-08-19,Transport,589,Bus/Taxi/Fuel
+2024-08-20,Food,672,Meals / groceries
+2024-08-21,Food,1107,Meals / groceries
+2024-08-21,Transport,751,Bus/Taxi/Fuel
+2024-08-21,Miscellaneous,365,Random spend
+2024-08-22,Food,914,Meals / groceries
+2024-08-23,Food,1209,Meals / groceries
+2024-08-24,Food,606,Meals / groceries
+2024-08-24,Transport,463,Bus/Taxi/Fuel
+2024-08-24,Entertainment,472,Movies / fun
+2024-08-25,Food,1399,Meals / groceries
+2024-08-25,Transport,465,Bus/Taxi/Fuel
+2024-08-25,Entertainment,453,Movies / fun
+2024-08-26,Transport,708,Bus/Taxi/Fuel
+2024-08-27,Food,672,Meals / groceries
+2024-08-28,Food,640,Meals / groceries
+2024-08-28,Transport,511,Bus/Taxi/Fuel
+2024-08-29,Transport,735,Bus/Taxi/Fuel
+2024-08-29,Health,1236,Doctor/medicine
+2024-08-30,Food,1401,Meals / groceries
+2024-08-30,Transport,360,Bus/Taxi/Fuel
+2024-08-31,Food,1127,Meals / groceries
+2024-08-31,Transport,603,Bus/Taxi/Fuel
+2024-09-01,Rent,985,Monthly rent
+2024-09-04,Food,1293,Meals / groceries
+2024-09-04,Health,1710,Doctor/medicine
+2024-09-05,Food,962,Meals / groceries
+2024-09-05,Bills,767,Electricity / Internet
+2024-09-06,Food,1148,Meals / groceries
+2024-09-08,Food,687,Meals / groceries
+2024-09-09,Food,984,Meals / groceries
+2024-09-11,Miscellaneous,239,Random spend
+2024-09-12,Food,911,Meals / groceries
+2024-09-13,Food,1455,Meals / groceries
+2024-09-15,Transport,436,Bus/Taxi/Fuel
+2024-09-16,Food,860,Meals / groceries
+2024-09-17,Miscellaneous,264,Random spend
+2024-09-18,Food,1271,Meals / groceries
+2024-09-18,Miscellaneous,346,Random spend
+2024-09-19,Food,1049,Meals / groceries
+2024-09-20,Food,1013,Meals / groceries
+2024-09-20,Transport,534,Bus/Taxi/Fuel
+2024-09-21,Food,714,Meals / groceries
+2024-09-21,Transport,500,Bus/Taxi/Fuel
+2024-09-21,Entertainment,1078,Movies / fun
+2024-09-21,Miscellaneous,345,Random spend
+2024-09-22,Food,717,Meals / groceries
+2024-09-22,Transport,711,Bus/Taxi/Fuel
+2024-09-24,Transport,653,Bus/Taxi/Fuel
+2024-09-25,Food,838,Meals / groceries
+2024-09-25,Transport,732,Bus/Taxi/Fuel
+2024-09-26,Food,1455,Meals / groceries
+2024-09-27,Transport,604,Bus/Taxi/Fuel
+2024-09-28,Food,770,Meals / groceries
+2024-09-28,Transport,552,Bus/Taxi/Fuel
+2024-09-30,Food,1197,Meals / groceries
+2024-10-01,Rent,1020,Monthly rent
+2024-10-01,Food,938,Meals / groceries
+2024-10-02,Food,1141,Meals / groceries
+2024-10-02,Health,883,Doctor/medicine
+2024-10-03,Food,1133,Meals / groceries
+2024-10-05,Food,934,Meals / groceries
+2024-10-05,Transport,520,Bus/Taxi/Fuel
+2024-10-05,Entertainment,402,Movies / fun
+2024-10-05,Bills,781,Electricity / Internet
+2024-10-06,Food,1173,Meals / groceries
+2024-10-06,Entertainment,878,Movies / fun
+2024-10-07,Food,834,Meals / groceries
+2024-10-08,Food,1081,Meals / groceries
+2024-10-08,Miscellaneous,235,Random spend
+2024-10-09,Food,913,Meals / groceries
+2024-10-10,Food,1320,Meals / groceries
+2024-10-10,Transport,510,Bus/Taxi/Fuel
+2024-10-11,Food,864,Meals / groceries
+2024-10-11,Miscellaneous,499,Random spend
+2024-10-13,Food,1443,Meals / groceries
+2024-10-13,Entertainment,919,Movies / fun
+2024-10-14,Food,836,Meals / groceries
+2024-10-14,Transport,393,Bus/Taxi/Fuel
+2024-10-15,Miscellaneous,470,Random spend
+2024-10-17,Food,838,Meals / groceries
+2024-10-18,Food,755,Meals / groceries
+2024-10-19,Transport,736,Bus/Taxi/Fuel
+2024-10-20,Food,939,Meals / groceries
+2024-10-20,Entertainment,791,Movies / fun
+2024-10-20,Miscellaneous,162,Random spend
+2024-10-21,Food,1492,Meals / groceries
+2024-10-22,Food,1289,Meals / groceries
+2024-10-23,Food,1366,Meals / groceries
+2024-10-24,Transport,481,Bus/Taxi/Fuel
+2024-10-26,Food,1050,Meals / groceries
+2024-10-26,Entertainment,652,Movies / fun
+2024-10-27,Entertainment,907,Movies / fun
+2024-10-28,Food,765,Meals / groceries
+2024-10-28,Transport,707,Bus/Taxi/Fuel
+2024-10-29,Food,806,Meals / groceries
+2024-10-29,Health,1014,Doctor/medicine
+2024-11-01,Rent,969,Monthly rent
+2024-11-01,Food,1454,Meals / groceries
+2024-11-02,Food,914,Meals / groceries
+2024-11-02,Entertainment,1157,Movies / fun
+2024-11-03,Entertainment,554,Movies / fun
+2024-11-04,Food,1070,Meals / groceries
+2024-11-04,Miscellaneous,158,Random spend
+2024-11-05,Food,781,Meals / groceries
+2024-11-05,Transport,638,Bus/Taxi/Fuel
+2024-11-05,Bills,926,Electricity / Internet
+2024-11-06,Food,1005,Meals / groceries
+2024-11-07,Food,1003,Meals / groceries
+2024-11-07,Health,1582,Doctor/medicine
+2024-11-09,Food,693,Meals / groceries
+2024-11-10,Food,1186,Meals / groceries
+2024-11-10,Entertainment,407,Movies / fun
+2024-11-10,Miscellaneous,308,Random spend
+2024-11-11,Food,1227,Meals / groceries
+2024-11-11,Transport,729,Bus/Taxi/Fuel
+2024-11-13,Food,1110,Meals / groceries
+2024-11-13,Transport,478,Bus/Taxi/Fuel
+2024-11-13,Health,1757,Doctor/medicine
+2024-11-14,Food,1424,Meals / groceries
+2024-11-14,Miscellaneous,375,Random spend
+2024-11-15,Food,908,Meals / groceries
+2024-11-16,Transport,310,Bus/Taxi/Fuel
+2024-11-16,Entertainment,969,Movies / fun
+2024-11-17,Food,957,Meals / groceries
+2024-11-17,Entertainment,483,Movies / fun
+2024-11-20,Food,638,Meals / groceries
+2024-11-21,Transport,303,Bus/Taxi/Fuel
+2024-11-22,Transport,770,Bus/Taxi/Fuel
+2024-11-23,Entertainment,665,Movies / fun
+2024-11-24,Food,954,Meals / groceries
+2024-11-24,Transport,615,Bus/Taxi/Fuel
+2024-11-24,Entertainment,646,Movies / fun
+2024-11-25,Food,1038,Meals / groceries
+2024-11-25,Transport,483,Bus/Taxi/Fuel
+2024-11-25,Miscellaneous,188,Random spend
+2024-11-26,Food,970,Meals / groceries
+2024-11-26,Miscellaneous,418,Random spend
+2024-11-27,Food,1124,Meals / groceries
+2024-11-28,Food,681,Meals / groceries
+2024-11-29,Food,1043,Meals / groceries
+2024-11-30,Food,1307,Meals / groceries
+2024-12-01,Rent,955,Monthly rent
+2024-12-01,Food,787,Meals / groceries
+2024-12-01,Entertainment,950,Movies / fun
+2024-12-02,Transport,490,Bus/Taxi/Fuel
+2024-12-02,Miscellaneous,321,Random spend
+2024-12-04,Food,1021,Meals / groceries
+2024-12-04,Miscellaneous,305,Random spend
+2024-12-05,Food,986,Meals / groceries
+2024-12-05,Bills,914,Electricity / Internet
+2024-12-06,Transport,644,Bus/Taxi/Fuel
+2024-12-06,Health,786,Doctor/medicine
+2024-12-07,Transport,705,Bus/Taxi/Fuel
+2024-12-08,Food,1099,Meals / groceries
+2024-12-08,Entertainment,672,Movies / fun
+2024-12-09,Food,1330,Meals / groceries
+2024-12-09,Transport,473,Bus/Taxi/Fuel
+2024-12-10,Health,655,Doctor/medicine
+2024-12-11,Food,601,Meals / groceries
+2024-12-13,Food,1205,Meals / groceries
+2024-12-13,Transport,354,Bus/Taxi/Fuel
+2024-12-14,Food,779,Meals / groceries
+2024-12-14,Entertainment,1091,Movies / fun
+2024-12-16,Food,1399,Meals / groceries
+2024-12-16,Transport,780,Bus/Taxi/Fuel
+2024-12-17,Food,1266,Meals / groceries
+2024-12-17,Transport,620,Bus/Taxi/Fuel
+2024-12-17,Miscellaneous,470,Random spend
+2024-12-18,Transport,572,Bus/Taxi/Fuel
+2024-12-20,Food,1092,Meals / groceries
+2024-12-21,Food,738,Meals / groceries
+2024-12-21,Transport,448,Bus/Taxi/Fuel
+2024-12-22,Food,872,Meals / groceries
+2024-12-22,Entertainment,949,Movies / fun
+2024-12-24,Transport,587,Bus/Taxi/Fuel
+2024-12-25,Food,682,Meals / groceries
+2024-12-25,Miscellaneous,383,Random spend
+2024-12-26,Food,809,Meals / groceries
+2024-12-27,Miscellaneous,466,Random spend
+2024-12-28,Food,1187,Meals / groceries
+2024-12-28,Transport,674,Bus/Taxi/Fuel
+2024-12-28,Entertainment,978,Movies / fun
+2024-12-29,Food,672,Meals / groceries
+2024-12-30,Miscellaneous,204,Random spend
+2024-12-31,Food,881,Meals / groceries
+2025-01-01,Rent,961,Monthly rent
+2025-09-10,Food,500.0,food
+2025-09-06,Entertainment,1200.0,
+2025-09-06,Health,1500.0,
+2025-09-06,Rent,1300.0,
+2025-09-17,Shopping,800.0,
