@@ -23,7 +23,7 @@ if page == "📊 Dashboard":
                         ["Food", "Transport", "Bills", "Shopping", "Health", "Entertainment", "Rent", "Other"])
         with col3:
             amount = st.number_input("Amount", min_value=0.0, step=0.5, format="%.2f")
-        notes = st.text_input("Notes (Optional)")
+        notes = st.text_input("Notes (Optional)", placeholder="e.g. , Lunch with friends")
         submitted = st.form_submit_button("Add")
         if submitted:
             try:
