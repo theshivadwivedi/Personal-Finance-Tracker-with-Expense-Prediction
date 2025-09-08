@@ -2,7 +2,8 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error 
+from sklearn.metrics import r2_score
 from sklearn.linear_model import ElasticNet
 from xgboost import XGBRegressor
 import joblib
@@ -11,7 +12,7 @@ from data_store import monthly_summary
 def train_model(user_id: str):
     msum = monthly_summary(user_id)
 
-    if msum.empty or len(msum) < 6:
+    if msum.empty or len(msum) < 3 :
         raise ValueError("Not enough data to train")
 
     msum['year_month'] = pd.to_datetime(msum["year_month"])
@@ -29,11 +30,16 @@ def train_model(user_id: str):
     enet = ElasticNet(alpha=0.1, l1_ratio=0.5, random_state=42)
     enet.fit(X_train, y_train)
     enet_rmse = np.sqrt(mean_squared_error(y_test, enet.predict(X_test)))
+    enet_r2 = r2_score(y_test, enet.predict(X_test))
+    print(f"ElasticNet R²: {enet_r2:.2f}")
+
 
     xgb = XGBRegressor(n_estimators=500, learning_rate=0.05, max_depth=3,
                        subsample=0.8, colsample_bytree=0.8, random_state=42)
     xgb.fit(X_train, y_train)
     xgb_rmse = np.sqrt(mean_squared_error(y_test, xgb.predict(X_test)))
+    xgb_r2 = r2_score(y_test, xgb.predict(X_test))
+    print(f"XGBoost R²: {xgb_r2:.2f}")
 
     best_model = xgb if xgb_rmse < enet_rmse else enet
     joblib.dump(best_model, f"model_{user_id}.pkl")

@@ -37,18 +37,32 @@ def add_expense(user_id: str, date, category: str, amount: float, notes: str = "
     })
 
 def load_expenses(user_id: str) -> pd.DataFrame:
-    cursor = expenses_col.find({"user_id": ObjectId(user_id)})
+    cursor = expenses_col.find(
+        {"user_id": ObjectId(user_id)},
+        {"_id": 0, "user_id": 0, "created_at": 0}  # exclude these fields
+    )
     df = pd.DataFrame(list(cursor))
     if not df.empty:
-        df["date"] = pd.to_datetime(df["date"])
+        df["date"] = pd.to_datetime(df["date"], errors="coerce")
+        df["date"] = df["date"].dt.normalize()
     return df
+
+
+import pandas as pd
 
 def monthly_summary(user_id: str) -> pd.DataFrame:
     df = load_expenses(user_id)
     if df.empty:
         return pd.DataFrame(columns=["year_month", "total_spend"])
+    
+    df["date"] = pd.to_datetime(df["date"])
     df["year_month"] = df["date"].dt.to_period("M").astype(str)
-    return df.groupby("year_month")["amount"].sum().reset_index(name="total_spend")
+
+    monthly_df = df.groupby("year_month")["amount"].sum().reset_index(name="total_spend")
+    
+    return monthly_df
+
+
 
 def category_breakdown(user_id: str) -> pd.DataFrame:
     df = load_expenses(user_id)
