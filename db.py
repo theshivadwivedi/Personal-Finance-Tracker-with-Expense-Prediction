@@ -1,34 +1,34 @@
-# db.py
 import os
-from pymongo import MongoClient, errors
+from pymongo import MongoClient
 from dotenv import load_dotenv
 
+# Load environment variables
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGODB_URI")
-MONGO_DB = os.getenv("MONGODB_DB")
+MONGODB_URI = os.getenv("MONGODB_URI")
+MONGODB_DB = os.getenv("MONGODB_DB", "FinanceApp")
 
-if not MONGO_URI:
-    raise ValueError("❌ MONGODB_URI is missing from .env")
-
-if not MONGO_DB:
-    raise ValueError("❌ MONGODB_DB is missing from .env")
+client = None
+db = None
+users_col = None
+expenses_col = None
 
 try:
-    client = MongoClient(MONGO_URI)
-    # Force connection test
-    client.server_info()
-    print("✅ Connected to MongoDB Atlas!")
-    db = client[MONGO_DB]
+    if not MONGODB_URI:
+        raise ValueError("MONGODB_URI is missing")
 
-    # Collections
+    client = MongoClient(MONGODB_URI, serverSelectionTimeoutMS=5000)
+    client.server_info()  # force connection test
+
+    db = client[MONGODB_DB]
     users_col = db["users"]
     expenses_col = db["expenses"]
 
-except errors.ServerSelectionTimeoutError as e:
-    print("❌ Could not connect to MongoDB (timeout):", e)
-    raise e
-except errors.OperationFailure as e:
-    print("❌ Authentication failed, check your username/password:", e)
-    raise e
+except Exception as e:
+    # Streamlit-specific graceful fail
+    try:
+        import streamlit as st
+        st.warning(f"⚠️ Could not connect to MongoDB: {e}")
+    except ImportError:
+        print(f"❌ MongoDB connection failed: {e}")
 
