@@ -91,7 +91,11 @@ with st.form("add_expense_form", clear_on_submit=True):
 
 
 
-    df = load_expenses(uid)
+    if st.session_state.user_id:
+         df = load_expenses(st.session_state.user_id)
+    else:
+        df = pd.DataFrame()
+
     if df.empty:
         st.info("No expenses yet")
     else:
