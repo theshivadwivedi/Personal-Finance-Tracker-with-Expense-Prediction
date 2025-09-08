@@ -5,9 +5,13 @@ pandas
 numpy
 scikit-learn
 xgboost
+<<<<<<< HEAD
 joblib
 pymongo
 dnspython
 python-dotenv
 pyjwt
 bcrypt
+=======
+
+>>>>>>> 012db0ff90faf1c037c7166d7481b16552a91155
