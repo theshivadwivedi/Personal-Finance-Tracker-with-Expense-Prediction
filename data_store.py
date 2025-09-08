@@ -3,7 +3,6 @@ from db import users_col, expenses_col
 from bson import ObjectId
 import pandas as pd
 from datetime import datetime
-from werkzeug.security import generate_password_hash, check_password_hash
 
 # -------- USERS ----------
 def create_user(username: str, password: str):
