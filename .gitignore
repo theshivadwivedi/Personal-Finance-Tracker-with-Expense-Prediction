@@ -1,6 +1,19 @@
-
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+env/
+
+# Logs
+*.log
+
+
+# Streamlit cache
+.streamlit/
+
+# Secrets
+.env
 *.pkl
-*.csv
-*.env
-instance/   
