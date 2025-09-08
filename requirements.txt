@@ -6,11 +6,7 @@ numpy
 scikit-learn
 xgboost
 joblib
-pymongo
-dnspython
 python-dotenv
 pyjwt
 bcrypt
-
-
-
+plotly
