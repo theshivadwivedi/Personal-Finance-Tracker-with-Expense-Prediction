@@ -67,15 +67,6 @@ else:
     with st.form("add_expense_form", clear_on_submit=True):
         st.subheader("➕ Add Expense")
         col1, col2, col3 = st.columns(3)
-<<<<<<< HEAD
-        with col1: date = st.date_input("Date")
-        with col2: category = st.selectbox("Category", ["Food","Transport","Bills","Shopping","Health","Entertainment","Rent","Other"])
-        with col3: amount = st.number_input("Amount", min_value=0.0, step=0.5)
-        notes = st.text_input("Notes (optional)")
-        if st.form_submit_button("Add"):
-            add_expense(uid, date, category, amount, notes)
-            st.success("✅ Expense added!")
-=======
         with col1:
             date = st.date_input("Date")
         with col2:
@@ -91,7 +82,6 @@ else:
                 st.success("✅ Expense added")
             except Exception as e:
                 st.error(f"Error: {e}")
->>>>>>> 012db0ff90faf1c037c7166d7481b16552a91155
 
     df = load_expenses(uid)
     if df.empty:
