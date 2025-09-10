@@ -26,15 +26,23 @@ def get_user(user_id: str):
     return users_col.find_one({"_id": ObjectId(user_id)})
 
 # -------- EXPENSES ----------
-def add_expense(user_id: str, date, category: str, amount: float, notes: str = ""):
-    expenses_col.insert_one({
-        "user_id": ObjectId(user_id),
-        "date": pd.to_datetime(date),
+
+def add_expense(user_id, date, category, amount, notes=""):
+    # Ensure date is datetime
+    if isinstance(date, datetime):
+        expense_date = date
+    else:
+        expense_date = datetime.combine(date, datetime.min.time())
+
+    expense = {
+        "user_id": user_id,        # keep as ObjectId or string
+        "date": expense_date,      # ✅ always datetime
         "category": category,
-        "amount": amount,
-        "notes": notes,
-        "created_at": datetime.utcnow()
-    })
+        "amount": float(amount),
+        "notes": notes
+    }
+    expenses_col.insert_one(expense)
+
 
 def load_expenses(user_id: str) -> pd.DataFrame:
     cursor = expenses_col.find(
