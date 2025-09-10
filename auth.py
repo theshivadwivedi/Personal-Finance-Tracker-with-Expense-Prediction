@@ -1,16 +1,17 @@
-# auth.py
 import jwt
 import datetime
-import os
 from dotenv import load_dotenv
+from bson import ObjectId
+import os
 
 load_dotenv()
 JWT_SECRET = os.getenv("JWT_SECRET", "supersecret")
-JWT_ALGO = "HS256"
+JWT_ALGO = os.getenv("JWT_ALGORITHM", "HS256") or "HS256"
 
-def create_token(user_id: str):
+def create_token(user_id):
+    user_id_str = str(user_id)
     payload = {
-        "user_id": str(user_id),
+        "user_id": user_id_str,
         "exp": datetime.datetime.utcnow() + datetime.timedelta(days=1)
     }
     return jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALGO)

@@ -1,70 +1,99 @@
-# data_store.py
-from db import users_col, expenses_col
-from bson import ObjectId
 import pandas as pd
-from datetime import datetime
+from bson import ObjectId
+from werkzeug.security import generate_password_hash, check_password_hash
+from datetime import datetime, date
 
-# -------- USERS ----------
+from db import users_col, expenses_col
+
+# ---------------- USER MANAGEMENT ----------------
 def create_user(username: str, password: str):
     if users_col.find_one({"username": username}):
-        raise ValueError("Username already exists")
+        raise ValueError("❌ Username already exists")
+    hashed_pw = generate_password_hash(password)
     result = users_col.insert_one({
         "username": username,
-        "password_hash": generate_password_hash(password),
+        "password": hashed_pw,
         "created_at": datetime.utcnow()
     })
     return str(result.inserted_id)
 
 def verify_user(username: str, password: str):
     user = users_col.find_one({"username": username})
-    if user and check_password_hash(user["password_hash"], password):
+    if not user:
+        return None
+    stored_pw = user.get("password") or user.get("password_hash")
+    if stored_pw and check_password_hash(stored_pw, password):
         return str(user["_id"])
     return None
 
-def get_user(user_id: str):
-    return users_col.find_one({"_id": ObjectId(user_id)})
+# ---------------- EXPENSES ----------------
+def add_expense(user_id: str, expense_date, category: str, amount: float, notes: str = ""):
+    try:
+        user_oid = ObjectId(user_id)
+    except Exception:
+        raise ValueError("❌ Invalid user_id format")
 
-# -------- EXPENSES ----------
-def add_expense(user_id: str, date, category: str, amount: float, notes: str = ""):
+    if isinstance(expense_date, date) and not isinstance(expense_date, datetime):
+        expense_date = datetime.combine(expense_date, datetime.min.time())
+
     expenses_col.insert_one({
-        "user_id": ObjectId(user_id),
-        "date": pd.to_datetime(date),
+        "user_id": user_oid,
+        "date": expense_date,
         "category": category,
-        "amount": amount,
+        "amount": float(amount),
         "notes": notes,
         "created_at": datetime.utcnow()
     })
 
 def load_expenses(user_id: str) -> pd.DataFrame:
-    cursor = expenses_col.find(
-        {"user_id": ObjectId(user_id)},
-        {"_id": 0, "user_id": 0, "created_at": 0}  # exclude these fields
-    )
-    df = pd.DataFrame(list(cursor))
-    if not df.empty:
-        df["date"] = pd.to_datetime(df["date"], errors="coerce")
-        df["date"] = df["date"].dt.normalize()
-    return df
+    try:
+        user_oid = ObjectId(user_id)
+        cursor = expenses_col.find({"user_id": user_oid})
+        df = pd.DataFrame(list(cursor))
 
+        if not df.empty:
+            df.drop(columns=["_id", "user_id", "created_at"], errors="ignore", inplace=True)
+            df["date"] = pd.to_datetime(df["date"])
 
-import pandas as pd
+        return df
+    except Exception as e:
+        print("⚠️ load_expenses error:", e)
+        return pd.DataFrame()
 
+# ---------------- ANALYTICS ----------------
 def monthly_summary(user_id: str) -> pd.DataFrame:
-    df = load_expenses(user_id)
-    if df.empty:
-        return pd.DataFrame(columns=["year_month", "total_spend"])
-    
-    df["date"] = pd.to_datetime(df["date"])
-    df["year_month"] = df["date"].dt.to_period("M").astype(str)
-
-    monthly_df = df.groupby("year_month")["amount"].sum().reset_index(name="total_spend")
-    
-    return monthly_df
-
-
+    try:
+        user_oid = ObjectId(user_id)
+        pipeline = [
+            {"$match": {"user_id": user_oid}},
+            {"$group": {
+                "_id": {"year": {"$year": "$date"}, "month": {"$month": "$date"}},
+                "total_spend": {"$sum": "$amount"}
+            }},
+            {"$sort": {"_id.year": 1, "_id.month": 1}}
+        ]
+        result = list(expenses_col.aggregate(pipeline))
+        df = pd.DataFrame(result)
+        if not df.empty:
+            df["year_month"] = pd.to_datetime(df["_id"].apply(lambda x: f"{x['year']}-{x['month']:02d}"))
+            df = df[["year_month", "total_spend"]]
+        return df
+    except Exception as e:
+        print("⚠️ monthly_summary error:", e)
+        return pd.DataFrame()
 
 def category_breakdown(user_id: str) -> pd.DataFrame:
-    df = load_expenses(user_id)
-    if df.empty:
-        return pd.DataFrame(columns=["category", "total_spend"])
-    return df.groupby("category")["amount"].sum().reset_index(name="total_spend")
+    try:
+        user_oid = ObjectId(user_id)
+        pipeline = [
+            {"$match": {"user_id": user_oid}},
+            {"$group": {"_id": "$category", "total_spend": {"$sum": "$amount"}}}
+        ]
+        result = list(expenses_col.aggregate(pipeline))
+        df = pd.DataFrame(result)
+        if not df.empty:
+            df.rename(columns={"_id": "category"}, inplace=True)
+        return df
+    except Exception as e:
+        print("⚠️ category_breakdown error:", e)
+        return pd.DataFrame()
