@@ -1,19 +1,27 @@
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Virtual env
+# Virtual envs
 venv/
 env/
+.venv/
 
-# Logs
-*.log
+# Jupyter
+.ipynb_checkpoints/
 
-
-# Streamlit cache
-.streamlit/
-
-# Secrets
+# Data / models / secrets
+data/
+*.csv
+*.pkl
+model.pkl
 .env
+secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
 *.pkl

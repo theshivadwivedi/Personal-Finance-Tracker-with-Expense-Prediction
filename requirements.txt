@@ -5,6 +5,9 @@ pandas
 numpy
 scikit-learn
 xgboost
+werkzeug
+plotly
+python-dotenv
 <<<<<<< HEAD
 joblib
 pymongo
