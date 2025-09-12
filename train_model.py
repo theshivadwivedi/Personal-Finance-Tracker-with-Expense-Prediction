@@ -1,4 +1,4 @@
-# train_model.py
+
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import ElasticNet
@@ -28,7 +28,7 @@ def train_model(user_id: str):
     if X.empty:
         raise ValueError("After feature engineering, no training rows remain.")
 
-    # Simple split: last 20% as validation
+    
     n = len(X)
     split = max(1, int(n * 0.8))
     X_train, X_val = X.iloc[:split], X.iloc[split:]
@@ -46,7 +46,7 @@ def train_model(user_id: str):
     xgb_pred = xgb.predict(X_val)
     xgb_rmse = np.sqrt(mean_squared_error(y_val, xgb_pred))
 
-    # pick best
+    
     if xgb_rmse <= en_rmse:
         best = xgb
         best_name = "xgboost"
