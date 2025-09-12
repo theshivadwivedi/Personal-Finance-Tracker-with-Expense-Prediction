@@ -1,12 +1,12 @@
 
-# data_store.py
+
 from bson import ObjectId
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime, date
 import pandas as pd
 from db import users_col, expenses_col
 
-# ---------------- USER MANAGEMENT ----------------
+
 def create_user(username: str, password: str):
     if users_col.find_one({"username": username}):
         raise ValueError("❌ Username already exists")
@@ -29,7 +29,7 @@ def verify_user(username: str, password: str):
         return None
     return None
 
-# ---------------- EXPENSES ----------------
+
 def add_expense(user_id: str, expense_date, category: str, amount: float, notes: str = ""):
     try:
         user_oid = ObjectId(user_id)
@@ -60,7 +60,7 @@ def load_expenses(user_id: str) -> pd.DataFrame:
         df["date"] = pd.to_datetime(df["date"], errors="coerce")
     return df
 
-# ---------------- ANALYTICS ----------------
+
 def monthly_summary(user_id: str) -> pd.DataFrame:
     pipeline = [
         {"$match": {"user_id": ObjectId(user_id)}},
