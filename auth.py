@@ -1,26 +1,36 @@
-import jwt
-import datetime
-from dotenv import load_dotenv
-from bson import ObjectId
+# auth.py
 import os
+import time
+import jwt
+from dotenv import load_dotenv
 
 load_dotenv()
-JWT_SECRET = os.getenv("JWT_SECRET", "supersecret")
-JWT_ALGO = os.getenv("JWT_ALGORITHM", "HS256") or "HS256"
 
-def create_token(user_id):
-    user_id_str = str(user_id)
+def _get_secret(name, default=None):
+    val = os.getenv(name)
+    if val:
+        return val
+    try:
+        import streamlit as st
+        return st.secrets.get(name, default)
+    except Exception:
+        return default
+
+JWT_SECRET = _get_secret("JWT_SECRET") or "CHANGE_ME"
+JWT_ALG = _get_secret("JWT_ALGORITHM") or "HS256"
+JWT_EXP_SECONDS = int(os.getenv("JWT_EXP_SECONDS", 86400))  # 1 day default
+
+def create_token(user_id: str):
     payload = {
-        "user_id": user_id_str,
-        "exp": datetime.datetime.utcnow() + datetime.timedelta(days=1)
+        "sub": str(user_id),
+        "iat": int(time.time()),
+        "exp": int(time.time()) + JWT_EXP_SECONDS
     }
-    return jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALGO)
+    return jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALG)
 
 def verify_token(token: str):
     try:
-        payload = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGO])
-        return payload["user_id"]
-    except jwt.ExpiredSignatureError:
-        return None
-    except jwt.InvalidTokenError:
+        data = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALG])
+        return data.get("sub")
+    except Exception:
         return None

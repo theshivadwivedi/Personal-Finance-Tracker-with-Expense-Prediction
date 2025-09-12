@@ -1,56 +1,59 @@
-import pandas as pd
+# train_model.py
 import numpy as np
-import os
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
+import pandas as pd
 from sklearn.linear_model import ElasticNet
+from sklearn.metrics import mean_squared_error
 from xgboost import XGBRegressor
-import joblib
+
 from data_store import monthly_summary
+
+def _make_features(msum: pd.DataFrame):
+    m = msum.copy()
+    m["year_month"] = pd.to_datetime(m["year_month"])
+    m["month_num"] = m["year_month"].dt.month
+    m["year"] = m["year_month"].dt.year
+    m["lag_1"] = m["total_spend"].shift(1)
+    m["rolling_3"] = m["total_spend"].rolling(3).mean()
+    m = m.dropna().reset_index(drop=True)
+    X = m[["month_num", "year", "lag_1", "rolling_3"]]
+    y = m["total_spend"]
+    return X, y
 
 def train_model(user_id: str):
     msum = monthly_summary(user_id)
-    if msum.empty or len(msum) < 3:
-        raise ValueError("❌ Not enough data to train a model")
+    if msum.empty or len(msum) < 4:
+        raise ValueError("Not enough monthly data to train (need at least 4 months).")
 
-    msum['year_month'] = pd.to_datetime(msum["year_month"])
-    msum['month_num'] = msum['year_month'].dt.month
-    msum['year'] = msum['year_month'].dt.year
-    msum['lag_1'] = msum['total_spend'].shift(1)
-    msum['rolling_3'] = msum['total_spend'].rolling(window=3).mean()
-    msum = msum.dropna()
+    X, y = _make_features(msum)
+    if X.empty:
+        raise ValueError("After feature engineering, no training rows remain.")
 
-    X = msum[["month_num", "year", "lag_1", "rolling_3"]]
-    y = msum["total_spend"]
+    # Simple split: last 20% as validation
+    n = len(X)
+    split = max(1, int(n * 0.8))
+    X_train, X_val = X.iloc[:split], X.iloc[split:]
+    y_train, y_val = y.iloc[:split], y.iloc[split:]
 
-    if len(X) < 3:
-        raise ValueError("❌ Need at least 3 months of data after feature engineering")
+    # ElasticNet
+    en = ElasticNet(alpha=0.1, l1_ratio=0.5, random_state=42, max_iter=5000)
+    en.fit(X_train, y_train)
+    en_pred = en.predict(X_val)
+    en_rmse = np.sqrt(mean_squared_error(y_val, en_pred))
 
-    test_size = 0.2 if len(X) > 5 else 0.33
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, shuffle=False)
-
-    enet = ElasticNet(alpha=0.1, l1_ratio=0.5, random_state=42)
-    enet.fit(X_train, y_train)
-    enet_rmse = np.sqrt(mean_squared_error(y_test, enet.predict(X_test)))
-    enet_r2 = r2_score(y_test, enet.predict(X_test))
-
-    xgb = XGBRegressor(
-        n_estimators=500, learning_rate=0.05, max_depth=3,
-        subsample=0.8, colsample_bytree=0.8, random_state=42
-    )
+    # XGBoost
+    xgb = XGBRegressor(n_estimators=200, learning_rate=0.05, max_depth=3, random_state=42, n_jobs=1)
     xgb.fit(X_train, y_train)
-    xgb_rmse = np.sqrt(mean_squared_error(y_test, xgb.predict(X_test)))
-    xgb_r2 = r2_score(y_test, xgb.predict(X_test))
+    xgb_pred = xgb.predict(X_val)
+    xgb_rmse = np.sqrt(mean_squared_error(y_val, xgb_pred))
 
-    best_model = xgb if xgb_rmse < enet_rmse else enet
+    # pick best
+    if xgb_rmse <= en_rmse:
+        best = xgb
+        best_name = "xgboost"
+        best_rmse = xgb_rmse
+    else:
+        best = en
+        best_name = "elasticnet"
+        best_rmse = en_rmse
 
-    os.makedirs("models", exist_ok=True)
-    joblib.dump(best_model, f"models/model_{user_id}.pkl")
-
-    return {
-        "model": best_model,
-        "enet_r2": enet_r2,
-        "enet_rmse": enet_rmse,
-        "xgb_r2": xgb_r2,
-        "xgb_rmse": xgb_rmse
-    }
+    return {"model": best, "model_name": best_name, "rmse": float(best_rmse)}

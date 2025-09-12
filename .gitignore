@@ -23,5 +23,3 @@ secrets.toml
 # OS
 .DS_Store
 Thumbs.db
-
-*.pkl

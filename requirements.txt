@@ -1,20 +1,13 @@
-pymongo
-dnspython
 streamlit
 pandas
-numpy
-scikit-learn
-xgboost
-werkzeug
 plotly
-python-dotenv
-<<<<<<< HEAD
-joblib
 pymongo
 dnspython
 python-dotenv
-pyjwt
 bcrypt
-=======
+pyjwt
+scikit-learn
+xgboost
+joblib
+numpy
 
->>>>>>> 012db0ff90faf1c037c7166d7481b16552a91155
