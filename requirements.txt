@@ -10,4 +10,5 @@ scikit-learn
 xgboost
 joblib
 numpy
+werkzeug==2.3.7
 
